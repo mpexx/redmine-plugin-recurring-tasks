@@ -110,10 +110,10 @@ Follow standard Redmine plugin un-installation -- (barely) modified from http://
 ## Running the tests
 
 1. Copy Redmine to `redmine/`:
-   - `curl -O http://www.redmine.org/releases/redmine-3.1.1.tar.gz`
-   - `tar -xf redmine-3.1.1.tar.gz`
-   - `rm redmine-3.1.1.tar.gz`
-   - `mv redmine-3.1.1 redmine`
+   - `curl -O https://www.redmine.org/releases/redmine-4.2.6.tar.gz`
+   - `tar -xf redmine-4.2.6.tar.gz`
+   - `rm redmine-4.2.6.tar.gz`
+   - `mv redmine-4.2.6 redmine`
 2. Symlink the plugin into the plugins folder:
    - `ln -s ../.. redmine/plugins/recurring_tasks`
 3. Setup a default database
